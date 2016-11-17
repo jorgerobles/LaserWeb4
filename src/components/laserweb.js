@@ -31,6 +31,8 @@ import Quote from './quote'
 import Settings from './settings'
 import About from './about'
 
+import Playground from './playground'
+
 import { AllowCapture } from './capture'
 import { DocumentCacheHolder } from './document-cache'
 
@@ -66,6 +68,7 @@ class LaserWeb extends React.Component {
                             <Quote id="quote" title="Quote" icon="money" />
                             <Settings id="settings" title="Settings" icon="cogs" />
                             <About id="about" title="About" icon="question" />
+                            <Playground id="playground" title="Playground" icon="gamepad" />
                         </Sidebar>
                         <Workspace style={{ flexGrow: 1 }} />
                     </div>
